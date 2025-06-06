@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunter x Hunter</title>
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="shortcut icon" href="/assets/icon-neferpitou.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="container">
+            <nav class="menu">
+                <a class="logo_hxh" href="index.html"><img src="/assets/hxh_logo.png" alt="logo de hxh"></a>
+                <ul style="list-style: none;">
+                    <li><a href="/pages/historia.html">História</a></li>
+                    <li><a href="/pages/arcos.html">Arcos</a></li>
+                    <li><a href="/pages/personagens.html">Personagens</a></li>
+                    <li><a href="/pages/organizacoes_familia.html">Organizações e Familias</a></li>
+                    <li><a href="/pages/pitou.html">Pitou</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="video-background">
+            <video id="video-back" autoplay playsinline>
+                <source src="assets/hxh_opening.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo HTML5.
+            </video>
+        </div>
+        <div class="audio-controls">
+                <button id="soundToggle">🔇</button>
+                <input id="volumeBar" type="range" min="0" max="1" step="0.01" value="0.5" />
+            </div>
+    </main>
+    <footer></footer>
+    <script src="/js/plugins/script.js"></script>
+</body>
+</html>
