@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const volumeBar = document.getElementById('volumeBar');
   const soundToggle = document.getElementById('soundToggle');
 
-  const savedVolume = parseFloat(localStorage.getItem('videoVolume')) || 0;
+  const savedVolume = 0
   let lastVolume = savedVolume;
 
   video.volume = savedVolume;
